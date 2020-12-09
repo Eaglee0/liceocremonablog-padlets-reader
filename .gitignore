@@ -1,0 +1,7 @@
+/node_modules/
+/public/build/
+www
+.DS_Store
+server.js
+scripts
+package-lock.json
