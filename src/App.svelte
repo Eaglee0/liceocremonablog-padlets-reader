@@ -10,7 +10,8 @@
 
   <nav class="nav">
 
-    <a class="menulink"><a class="test" id="test" href="/padlets">Home</a></a>
+	<a class="menulink" href="/">Home</a>
+	<a class="menulink" href="/padlets">Padlets</a>
   </nav>
 
 
@@ -18,7 +19,7 @@
 	{#if query_name==""}
 		<Home />
 		{:else}
-		<Memes padlet_user="nicovalespazio" padlet_name="fnsef2dqbbj25udd" query_name="?padlet_username=nicovalespazio&padlet_name=fnsef2dqbbj25udd"/>
+		<Memes padlet_user="nicovalespazio" padlet_name="fnsef2dqbbj25udd" query_name="?padlet_name=fnsef2dqbbj25udd"/>
 	{/if}
 </div>
 
@@ -29,10 +30,10 @@
 	  background-color: #29292a;
 	  padding-right: 50%;
 	  padding-left: 50%;
-	  padding-bottom: 2%;
-	  padding-top: 2%;
+	  padding-bottom: 1.5%;
+	  padding-top: 1.5%;
 	  display: grid;
-	  grid-template-columns: auto;
+	  grid-template-columns: auto auto;
 	}
 	a {
 		color: white;
